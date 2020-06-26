@@ -4,7 +4,7 @@
     "members": "ts-node --project scripts/tsconfig.json scripts/members.ts",
     "articles": "ts-node --project scripts/tsconfig.json scripts/articles.ts",
     "start": "next start",
-    "build": "next build && next export -o docs"
+    "build": "next build"
   },
   "dependencies": {
     "dayjs": "^1.8.26",
