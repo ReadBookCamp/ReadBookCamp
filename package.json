@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "scripts": {
+    "members": "ts-node --project scripts/tsconfig.json scripts/members.ts",
+    "articles": "ts-node --project scripts/tsconfig.json scripts/articles.ts",
+    "start": "next"
+  },
+  "dependencies": {
+    "dayjs": "^1.8.26",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@octokit/rest": "latest",
+    "@types/cookie": "^0.3.3",
+    "@types/lodash": "^4.14.150",
+    "@types/node": "^13.13.5",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "autoprefixer": "^9.7.6",
+    "cookie": "^0.4.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "lodash": "^4.17.15",
+    "next": "^9.3.6",
+    "postcss-import": "^12.0.1",
+    "prettier": "^2.0.5",
+    "query-string": "^6.12.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-use": "^14.2.0",
+    "swr": "^0.2.0",
+    "tailwindcss": "^1.4.6",
+    "timeago.js": "^4.0.2"
+  }
+}
