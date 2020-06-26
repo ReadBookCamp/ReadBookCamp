@@ -2,11 +2,11 @@ import { Octokit } from '@octokit/rest';
 
 const octokit = new Octokit({
   auth: process.env.LEARN_GH_TOKEN,
-  userAgent: 'earlyBirdCamp',
+  userAgent: 'ReadBookCamp',
 });
 
 async function getData() {
-  const org = 'earlyBirdCamp';
+  const org = 'ReadBookCamp';
 
   // 分析文章
   console.log('Get articles');

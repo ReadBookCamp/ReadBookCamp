@@ -7,11 +7,11 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   const { login: name } = JSON.parse(gh_user_info);
   const octokit = new Octokit({
     auth: process.env.LEARN_GH_TOKEN,
-    userAgent: 'earlyBirdCamp',
+    userAgent: 'ReadBookCamp',
   });
   try {
-    await octokit.orgs.addOrUpdateMembership({
-      org: 'earlyBirdCamp',
+    await octokit.orgs.setMembershipForUser({
+      org: 'ReadBookCamp',
       username: name as string,
       role: 'member',
     });

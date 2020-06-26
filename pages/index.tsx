@@ -24,14 +24,14 @@ export default () => {
             />
           </div>
           <div className="text-center text-3xl font-sans my-5">
-            EarlyBirdCamp（早鸟营）
+            ReadBookCamp
           </div>
         </div>
         <div className="flex flex-col content-center flex-wrap">
           <div className="text-gray-700 lg:w-1/2 sm:w-3/4">
             Hi！这是一个机器人管理的前端小社群，希望能通过
             <a
-              href="https://github.com/earlyBirdCamp/earlyBirdCamp/issues/1"
+              href="https://github.com/ReadBookCamp/ReadBookCamp/issues/1"
               target="_blank"
             >
               “有趣”的类游戏规则

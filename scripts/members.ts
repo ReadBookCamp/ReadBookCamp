@@ -32,11 +32,11 @@ const pathToLatestData = join(__dirname, '..', 'data', 'latest.json');
 
 const octokit = new Octokit({
   auth: process.env.LEARN_GH_TOKEN,
-  userAgent: 'earlyBirdCamp',
+  userAgent: 'ReadBookCamp',
 });
 
 async function getData() {
-  const org = 'earlyBirdCamp';
+  const org = 'ReadBookCamp';
   const data: Data = JSON.parse(readFileSync(pathToLatestData, 'utf-8'));
 
   // 补充新增的 member

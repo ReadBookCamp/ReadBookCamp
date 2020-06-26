@@ -150,15 +150,15 @@ export default (props: { members: any[] }) => {
             1. 访问{' '}
             <a
               target="_blank"
-              href="https://github.com/orgs/earlyBirdCamp/invitation"
+              href="https://github.com/orgs/ReadBookCamp/invitation"
             >
-              orgs/earlyBirdCamp/invitation
+              orgs/ReadBookCamp/invitation
             </a>{' '}
             接受邀请，接受后才算正式加入，并开始计时扣 HP
             <br />
             2. 阅读
             <a
-              href="https://github.com/earlyBirdCamp/earlyBirdCamp/issues/1"
+              href="https://github.com/ReadBookCamp/ReadBookCamp/issues/1"
               target="_blank"
             >
               《早鸟营详细规则》
@@ -166,14 +166,14 @@ export default (props: { members: any[] }) => {
             <br />
             3. 访问
             <a
-              href="https://github.com/earlyBirdCamp/articles/issues"
+              href="https://github.com/ReadBookCamp/articles/issues"
               target="_blank"
             >
               文章区
             </a>
             开始写文章（FAQ：如遇 404 错误，先接受邀请）
             <br />
-            4. 扫码添加 UmiJS 小助手，并回复 <strong>earlyBirdCamp</strong>{' '}
+            4. 扫码添加 UmiJS 小助手，并回复 <strong>ReadBookCamp</strong>{' '}
             加交流群
             <img
               src="https://img.alicdn.com/tfs/TB1pd1ce8r0gK0jSZFnXXbRRXXa-430-430.jpg"

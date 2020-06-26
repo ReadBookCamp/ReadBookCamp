@@ -6,7 +6,7 @@
 ## 规则
 
 - 加入的同学会被拉到 github 私库，初始 HP 是 14
-- 每在 [earlyBirdCamp/articles](https://github.com/earlyBirdCamp/articles/issues) 下写一篇前端相关的文章 HP +7
+- 每在 [ReadBookCamp/articles](https://github.com/ReadBookCamp/articles/issues) 下写一篇前端相关的文章 HP +7
 - 文章被 👍 7 次或以上，HP 再 +7
 - 文章太水，被 Close 不计分
 - 每天 24 点 HP -1
