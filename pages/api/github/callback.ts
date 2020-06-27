@@ -6,6 +6,7 @@ import { CLIENT_ID, CLIENT_SECRET } from '../../../constants/constants';
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   const { code } = req.query;
   const body = new URLSearchParams();
+  console.log('CLIENT_SECRET', CLIENT_SECRET);
   body.append('client_id', CLIENT_ID);
   body.append('client_secret', CLIENT_SECRET);
   body.append('code', code as string);
